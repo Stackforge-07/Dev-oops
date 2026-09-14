@@ -1,0 +1,20 @@
+{
+  "name": "dev-oops",
+  "version": "1.0.0",
+  "description": "Dev-Eng",
+  "keywords": [
+    "nodejs",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Prakhar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/app.js",
+    "dev":"nodemon src/app1.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
